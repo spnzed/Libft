@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_delete.c                                        :+:      :+:    :+:   */
+/*   ft_cleanp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaronespinosa <aaronespinosa@student.42    +#+  +:+       +#+        */
+/*   By: aaespino <aaespino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/01 11:43:38 by aaronespino       #+#    #+#             */
-/*   Updated: 2023/06/01 11:57:42 by aaronespino      ###   ########.fr       */
+/*   Created: 2023/10/04 14:29:38 by aaespino          #+#    #+#             */
+/*   Updated: 2023/10/04 14:30:31 by aaespino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void    *ft_delete(void *p)
+void    *ft_cleanp(void *p)
 {
-    free(p);
-    p = NULL;
-    return (p);
+	free(p);
+	p = NULL;
+	return (p);
 }

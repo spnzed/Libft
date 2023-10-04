@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstpos.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aaronespinosa <aaronespinosa@student.42    +#+  +:+       +#+        */
+/*   By: aaespino <aaespino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/01 11:11:45 by aaronespino       #+#    #+#             */
-/*   Updated: 2023/06/01 11:15:43 by aaronespino      ###   ########.fr       */
+/*   Created: 2023/10/04 14:28:12 by aaespino          #+#    #+#             */
+/*   Updated: 2023/10/04 14:28:36 by aaespino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
