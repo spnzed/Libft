@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_countdigit.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aaespino <aaespino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 21:07:40 by aaespino          #+#    #+#             */
-/*   Updated: 2023/10/06 16:13:35 by aaespino         ###   ########.fr       */
+/*   Created: 2023/10/06 14:53:20 by aaespino          #+#    #+#             */
+/*   Updated: 2023/10/06 15:06:37 by aaespino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-size_t	ft_strlen(const char *str)
+int ft_countdigit(long num)
 {
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	int count;
+	
+	count = 1;
+	if (num < 0)
+		count++;
+	while (num >= 10)
+	{
+		count++;
+		num /= 10;
+	}
+	return(count);
 }
